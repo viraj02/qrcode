@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 // Components
 import { HeaderComponent } from './header/header.component';
+import { MaterialModule } from '../material/material.module';
 
 const EXPORT_COMPONENTS = [
   HeaderComponent
@@ -14,7 +15,8 @@ const EXPORT_COMPONENTS = [
     EXPORT_COMPONENTS
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule
   ],
   exports: [
     EXPORT_COMPONENTS
